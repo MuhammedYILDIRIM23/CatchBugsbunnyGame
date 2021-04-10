@@ -13,6 +13,9 @@
 		277E86B926204197001156F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277E86B726204197001156F1 /* Main.storyboard */; };
 		277E86BB26204198001156F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277E86BA26204198001156F1 /* Assets.xcassets */; };
 		277E86BE26204198001156F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277E86BC26204198001156F1 /* LaunchScreen.storyboard */; };
+		27B8FFC02621983D00C801BA /* EasyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8FFBF2621983D00C801BA /* EasyVC.swift */; };
+		27B8FFC32621984F00C801BA /* MediumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8FFC22621984F00C801BA /* MediumVC.swift */; };
+		27B8FFC82621986100C801BA /* HardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8FFC72621986100C801BA /* HardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		277E86BA26204198001156F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277E86BD26204198001156F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		277E86BF26204198001156F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B8FFBF2621983D00C801BA /* EasyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyVC.swift; sourceTree = "<group>"; };
+		27B8FFC22621984F00C801BA /* MediumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumVC.swift; sourceTree = "<group>"; };
+		27B8FFC72621986100C801BA /* HardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				277E86B126204197001156F1 /* AppDelegate.swift */,
 				277E86B326204197001156F1 /* SceneDelegate.swift */,
 				277E86B526204197001156F1 /* ViewController.swift */,
+				27B8FFBF2621983D00C801BA /* EasyVC.swift */,
+				27B8FFC22621984F00C801BA /* MediumVC.swift */,
+				27B8FFC72621986100C801BA /* HardVC.swift */,
 				277E86B726204197001156F1 /* Main.storyboard */,
 				277E86BA26204198001156F1 /* Assets.xcassets */,
 				277E86BC26204198001156F1 /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				277E86B626204197001156F1 /* ViewController.swift in Sources */,
+				27B8FFC32621984F00C801BA /* MediumVC.swift in Sources */,
 				277E86B226204197001156F1 /* AppDelegate.swift in Sources */,
+				27B8FFC02621983D00C801BA /* EasyVC.swift in Sources */,
 				277E86B426204197001156F1 /* SceneDelegate.swift in Sources */,
+				27B8FFC82621986100C801BA /* HardVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
